@@ -1,0 +1,12 @@
+:root {
+	--primary-color: #f1c50e;
+	--just-white: #ffffff;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html{
+  font-size: 62.5%;
+}
