@@ -10,3 +10,49 @@
 html{
   font-size: 62.5%;
 }
+header {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 65rem;
+  background-image: url(./assets/imgs/women-back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: inherit;
+}
+.header__title-container{
+  position: relative;
+  width: 42rem;
+  margin-top: auto;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.header__title-container h1{
+  font-size: 3.5rem;
+  font-family:'Roboto', sans-serif;
+  color: var(--just-white);
+  margin-bottom: 2rem;
+}
+.header__title-container input{
+  width: 41rem;
+  height: 4.5rem;
+  font-size: 1.8rem;
+  padding: 0px 10px;
+  margin-bottom: 1.2rem;
+  outline: none;
+  border: none;
+}
+.header__title-container button {
+  width: 41rem;
+  height: 4.5rem;
+  padding: 1rem 3rem;
+  font-family:'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: var(--just-white);
+  background-color: var(--primary-color);
+  border: none;
+  outline: none;
+}
